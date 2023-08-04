@@ -1,0 +1,65 @@
+#display {
+  background-color: white;
+  width: 75%;
+  height: 75px;
+  margin: 5px;
+  font-size: xx-large;
+  text-align: right;
+  padding-top: 10px;
+}
+#top {
+  display: flex;
+  flex-direction: column;
+}
+#titanium {
+  background-color: silver;
+}
+
+#answer {
+  color: black;
+}
+
+#row {
+  display: flex;
+  height: 120px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: full;
+  width: 25%;
+  box-shadow: 2px 2px 2px 2px gray;
+  margin: 5px;
+  font-size: xx-large;
+}
+.number {
+  background-color: azure;
+}
+.operator {
+  background-color: #863399;
+  color: white;
+}
+p {
+  font-size: 31px;
+}
+.container {
+  display: flex;
+}
+
+.decimal {
+  width: 30%;
+}
+.zero {
+  width: 30%;
+}
+.equal {
+  width: 41%;
+}
+.del {
+  width: 51%;
+}
